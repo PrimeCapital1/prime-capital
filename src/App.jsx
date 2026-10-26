@@ -16,13 +16,13 @@ const IMAGES = {
 };
 
 const B = {
-  en: { bh: "Visit us in person", bt: "Talk to an advisor face to face, open an account, or collect a new card.", bb: "Book a visit", ia: "Prime Capital headquarters" },
-  es: { bh: "Visítenos en persona", bt: "Hable con un asesor cara a cara, abra una cuenta o recoja una tarjeta nueva.", bb: "Reservar una visita", ia: "Sede de Prime Capital" },
-  fr: { bh: "Rendez-nous visite", bt: "Parlez à un conseiller en face à face, ouvrez un compte ou retirez une nouvelle carte.", bb: "Réserver une visite", ia: "Siège de Prime Capital" },
-  ar: { bh: "زرنا شخصيًا", bt: "تحدث مع مستشار وجهًا لوجه، أو افتح حسابًا، أو استلم بطاقة جديدة.", bb: "احجز زيارة", ia: "المقر الرئيسي لبنك Prime Capital" },
-  id: { bh: "Kunjungi kami langsung", bt: "Bicara dengan penasihat secara langsung, buka rekening, atau ambil kartu baru.", bb: "Jadwalkan kunjungan", ia: "Kantor pusat Prime Capital" },
-  ms: { bh: "Lawati kami secara peribadi", bt: "Berbual dengan penasihat secara bersemuka, buka akaun, atau ambil kad baharu.", bb: "Tempah lawatan", ia: "Ibu pejabat Prime Capital" },
-  th: { bh: "แวะมาหาเรา", bt: "พูดคุยกับที่ปรึกษาแบบเห็นหน้ากัน เปิดบัญชี หรือรับบัตรใหม่", bb: "จองเวลาเข้าพบ", ia: "สำนักงานใหญ่ Prime Capital" },
+  en: { bh: "Visit us in person", bt: "Talk to an advisor face to face, open an account, or collect a new card.", bb: "Book a visit", ia: "International Money Transfer headquarters" },
+  es: { bh: "Visítenos en persona", bt: "Hable con un asesor cara a cara, abra una cuenta o recoja una tarjeta nueva.", bb: "Reservar una visita", ia: "Sede de International Money Transfer" },
+  fr: { bh: "Rendez-nous visite", bt: "Parlez à un conseiller en face à face, ouvrez un compte ou retirez une nouvelle carte.", bb: "Réserver une visite", ia: "Siège de International Money Transfer" },
+  ar: { bh: "زرنا شخصيًا", bt: "تحدث مع مستشار وجهًا لوجه، أو افتح حسابًا، أو استلم بطاقة جديدة.", bb: "احجز زيارة", ia: "المقر الرئيسي لبنك International Money Transfer" },
+  id: { bh: "Kunjungi kami langsung", bt: "Bicara dengan penasihat secara langsung, buka rekening, atau ambil kartu baru.", bb: "Jadwalkan kunjungan", ia: "Kantor pusat International Money Transfer" },
+  ms: { bh: "Lawati kami secara peribadi", bt: "Berbual dengan penasihat secara bersemuka, buka akaun, atau ambil kad baharu.", bb: "Tempah lawatan", ia: "Ibu pejabat International Money Transfer" },
+  th: { bh: "แวะมาหาเรา", bt: "พูดคุยกับที่ปรึกษาแบบเห็นหน้ากัน เปิดบัญชี หรือรับบัตรใหม่", bb: "จองเวลาเข้าพบ", ia: "สำนักงานใหญ่ International Money Transfer" },
 };
 
 const TOPICS = ["cards", "transfers", "fraud", "loans", "online", "accounts"];
@@ -119,7 +119,7 @@ export default function App() {
         <div className="wrap">
           <a className="logo" href="#top">
             <i>PC</i>
-            <span>Prime Capital<small>{t.tag}</small></span>
+            <span>International Money Transfer<small>{t.tag}</small></span>
           </a>
           <nav aria-label="Main">
             <a href="#help">{t.n1}</a>
@@ -150,7 +150,7 @@ export default function App() {
             <span className="k">{t.call}</span>
             <a className="big" href="tel:+1(814)876-0690" dir="ltr">+1(814)876-0690</a>
             <span className="k">{t.mail}</span>
-            <a className="mail" href="mailto:support@primecapital.bank" dir="ltr">support@primecapital.bank</a>
+            <a className="mail" href="mailto:support@internationalmoneytransfer" dir="ltr">support@internationalmoneytransfer.com</a>
             <p className="hrs">{t.hrs}</p>
             <button className="btn" onClick={openChat}>{t.chat}</button>
           </aside>
