@@ -118,7 +118,7 @@ export default function App() {
       <header>
         <div className="wrap">
           <a className="logo" href="#top">
-            <i>PC</i>
+            <i>IMT</i>
             <span>International Money Transfer<small>{t.tag}</small></span>
           </a>
           <nav aria-label="Main">
